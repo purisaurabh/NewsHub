@@ -19,5 +19,5 @@ You may also see any lint errors in the console.
 
 ![image](https://github.com/purisaurabh/NewsHub/assets/87465792/72bc1ac5-150e-4019-ba1e-50e32f856f59)
 ![image](https://github.com/purisaurabh/NewsHub/assets/87465792/c7c115ad-ecdc-4023-9786-061a690656ea)
-![image](https://github.com/purisaurabh/NewsHub/assets/87465792/ca2135ff-25ce-4de8-bdf7-79a2ad7cf2ed)
+
 
