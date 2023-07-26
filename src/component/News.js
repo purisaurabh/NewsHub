@@ -53,7 +53,7 @@ const News = (props) =>{
         {loading && <Spinner />}
  
           <div className="row">
-            {!loading && articles?.map((element) => {
+            {!loading && articles.map((element) => {
               return (
                 <div className="col-md-4" key={element.url}>
                   <NewsItem title={element.title ? element.title : ''}  description={element.description ? element.description : ''} imageUrl={element.urlToImage} newsUrl={element.url} author = {element.author} date ={element.publishedAt}/>
