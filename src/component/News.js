@@ -15,7 +15,6 @@ const News = (props) =>{
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
 
-  
 
   const updateNews = async () => {
     props.setProgress(10);
@@ -46,6 +45,7 @@ const News = (props) =>{
     updateNews();
   }
 
+  console.log(articles);
 
     return (
       <div className="container my-3">
@@ -53,7 +53,7 @@ const News = (props) =>{
         {loading && <Spinner />}
  
           <div className="row">
-            {!loading && articles.map((element) => {
+            {!loading && articles?.map((element) => {
               return (
                 <div className="col-md-4" key={element.url}>
                   <NewsItem title={element.title ? element.title : ''}  description={element.description ? element.description : ''} imageUrl={element.urlToImage} newsUrl={element.url} author = {element.author} date ={element.publishedAt}/>
